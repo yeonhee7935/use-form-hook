@@ -1,0 +1,25 @@
+{
+  "name": "@twid_yuni/use-form-hook",
+  "version": "1.0.0",
+  "description": "A custom React hook for form handling.",
+  "main": "dist/useForm.js",
+  "types": "dist/useForm.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "form"
+  ],
+  "author": "twid_yuni",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/react": "^17.0.0 || ^18.0.0"
+  }
+}
